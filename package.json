@@ -11,6 +11,8 @@
   },
   "scripts": {
     "start": "node app.js",
-    "build": "cd views && yarn build"
+    "build": "cd views && yarn build",
+    "install-react": "cd views && yarn install",
+    "setup": "yarn install && yarn install-react"
   }
 }
