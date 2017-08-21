@@ -13,6 +13,8 @@
     "start": "node app.js",
     "build": "cd views && yarn build",
     "install-react": "cd views && yarn install",
-    "setup": "yarn install && yarn install-react"
+    "setup": "yarn install && yarn install-react",
+    "react-dev": "cd views && yarn start",
+    "react-test": "cd views && yarn test"
   }
 }
