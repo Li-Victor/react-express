@@ -33,6 +33,6 @@ Launches create-react-app test runner in the interactive watch mode.
 
 All other information about create-react-app can be found in https://github.com/facebookincubator/create-react-app/.
 
-Example of this project setup:
+## Examples of this project setup:
 * [**React password**](https://github.com/Li-Victor/react-password) inspired by blog post https://daveceddia.com/create-react-app-express-production/
 * [**Voting app**](https://github.com/Li-Victor/lets-vote)
