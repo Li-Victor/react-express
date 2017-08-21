@@ -1,19 +1,16 @@
 {
-  "name": "client",
+  "name": "react-express",
+  "description": "Basic express with react boilerplate",
   "version": "0.1.0",
-  "private": true,
+  "main": "index.js",
+  "author": "Victor Li",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "express": "^4.15.4",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-scripts": "1.0.11"
+    "express": "^4.15.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "launch": "node app.js"
+    "start": "node app.js",
+    "build": "cd views && yarn build"
   }
 }

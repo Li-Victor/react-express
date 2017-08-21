@@ -4,10 +4,10 @@ var path = require('path');
 
 var app = express();
 
-app.use(express.static(path.join(__dirname, '/build')));
+app.use(express.static(path.join(__dirname, '/views/build')));
 
 app.get('*', function (req, res) {
-    res.sendFile(path.join(__dirname + '/build/index.html'));
+    res.sendFile(path.join(__dirname + '/views/build/index.html'));
 });
 
 var port = process.env.PORT || 3000;
