@@ -28,7 +28,12 @@ Runs create-react-app in development mode. Open [**http://localhost:3000**](http
 
 The page will reload if you make edits.
 
+To use express alongside react-dev, use another terminal and run `yarn build`, as well as configuring a [**proxy**](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#proxying-api-requests-in-development) in views/package.json. Make sure express does not listen on port 3000, which create-react-app uses.
+
+Example: `"proxy": "http://localhost:5000"`
+
 **`yarn react-text`**
+
 Launches create-react-app test runner in the interactive watch mode.
 
 All other information about create-react-app can be found in https://github.com/facebookincubator/create-react-app/.
